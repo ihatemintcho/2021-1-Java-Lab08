@@ -62,6 +62,9 @@ public class IntegratedConverter {
             // https://www.geeksforgeeks.org/method-chaining-in-java-with-examples/#:~:text=Method%20Chaining%20is%20the%20practice,with%20a%20(dot.).
             myAllConverter.setFromValue(fromValue).setOriginalMeasure(originalMeasure).convertAndPrintOut();
         }
+        
+        System.out.println("Thank you for using my converter! see you next time");
+        
     }
 }
 
